@@ -14,5 +14,5 @@ jobs:
         server: ftp.legenda.co
         username: blocktheme@legenda.co
         password: ${{ secrets.FTP_PASSWORD }}
-        timeout: 1200
-        retries: 2
+        protocol: ftp
+        passive: true
