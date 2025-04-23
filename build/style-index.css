@@ -249,7 +249,7 @@ header .penta-article-group {
    * Page Template
    */
 .span-left, .span-right {
-  grid-column: span 3;
+  grid-column: span 3 !important;
 }
 
 .wpcf7-form {
@@ -1418,10 +1418,10 @@ media queries, alternative states, changes to default WP styles
 }
 @media only screen and (min-width: 1000px) {
   .span-left {
-    grid-column: span 1;
+    grid-column: span 1 !important;
   }
   .span-right {
-    grid-column: span 2;
+    grid-column: span 2 !important;
   }
   .post-container,
   .blog-post-container {

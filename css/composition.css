@@ -254,7 +254,7 @@ header .penta-article-group {
    */
 
    .span-left, .span-right{
-grid-column: span 3;
+grid-column: span 3 !important;
    }
 
 .wpcf7-form {

@@ -123,11 +123,11 @@ main p {
 @media only screen and (min-width:1000px) {
 
   .span-left{
-    grid-column: span 1;
+    grid-column: span 1 !important;
        }
 
        .span-right{
-        grid-column: span 2;
+        grid-column: span 2 !important;
            }
 
   .post-container,
