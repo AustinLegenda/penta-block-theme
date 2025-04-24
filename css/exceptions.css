@@ -53,11 +53,13 @@ media queries, alternative states, changes to default WP styles
 TYPO
 **/
   nav li a {
-    font-size: clamost(16px, 3vw, 22px);
+    font-size: clamp(16px, 3vw, 22px);
+    min-height: 0vw;
   }
 
   h3 {
     font-size: clamp(16.69px, 3vw, 27px);
+    min-height: 0vw;
   }
 
   .wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {

@@ -35,7 +35,7 @@ function MobileNav() {
   } else {}
   //check for footer and remove
   if (footer.classList.contains("out-of-step")) {
-    footer.classList.remove("out-of-step");
+    footer.classList.remove("out-of-step", "white");
   } else {}
   //hide open close elements
   navItems.classList.add("hide");
@@ -55,7 +55,7 @@ function killMobileNav() {
     i.classList.remove("white");
   });
   //remove footer class
-  footer.classList.remove("out-of-step");
+  footer.classList.remove("out-of-step", "white");
 }
 
 function openMobileNav() {
@@ -70,7 +70,7 @@ function openMobileNav() {
     i.classList.toggle("hide");
   });
   //add footer class
-  footer.classList.add("out-of-step");
+  footer.classList.add("out-of-step", "white");
 
 }
 
