@@ -18,6 +18,7 @@
   .logo-type {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: clamp(25.34px, 3vw, 41px);
+    min-height: 0vw;
     font-weight: 400;
     letter-spacing: 2.5px;
   
@@ -35,6 +36,7 @@
   
   ul {
     font-size: clamp(12px, 3vw, 14px);
+    min-height: 0vw;
   }
   
   body {
@@ -50,13 +52,15 @@
   .title {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: clamp(56px, 3vw, 72px);
+    min-height: 0vw;
     line-height: 1em;
   }
   
   .tag {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: clamp(1.5em, 3vw, 2.5em);
-  }*/
+     min-height: 0vw;
+  }
   
   h1,
   h2 {
@@ -66,6 +70,7 @@
   h1 {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: clamp(33.59px, 3vw, 55px)!important;
+    min-height: 0vw;
     font-weight: 600;
     letter-spacing: -1px;
     line-height: normal;
@@ -75,6 +80,7 @@
   h2 {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: clamp(31.45px, 3vw, 48px);
+    min-height: 0vw;
   }
   
  .wp-block-post-excerpt p, h3 {
@@ -88,6 +94,7 @@
     font-family: "Open Sans", Arial, sans-serif;
     padding: 10px 0 15px 0;
     font-size: clamp(16px, 3vw, 19px);
+    min-height: 0vw;
     font-weight: 400;
   }
   h5, 
@@ -96,6 +103,7 @@
   .wp-block-post-navigation-link {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: clamp(11.74px, 3vw, 19px);
+    min-height: 0vw;
     font-weight: 400;
     color: rgb(153, 153, 153);
   }
@@ -127,10 +135,12 @@
     max-width: 700px;
     margin: 2em 0 2em 0;
     font-size: clamp(12px, 3vw, 14px);
+    min-height: 0vw;
   }
   
   .textwidget {
     font-size: clamp(0.5rem, 3vw, 1.5rem);
+    min-height: 0vw;
   }
   
   figcaption {
@@ -146,11 +156,13 @@
   .cat-menu-container ul li a {
     font-family: "EB Garamond", Garamond, Baskerville, "Times New Roman", serif;
     font-size: clamp(.5em, 3vw, 1.5em);
+    min-height: 0vw;
     font-weight: bold;
   }
   
   .work-feed-container h2 {
     padding-top: clamp(0.5em, 3vw, 1em);
+    min-height: 0vw;
   }
   
   
