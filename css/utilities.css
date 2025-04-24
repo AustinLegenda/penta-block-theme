@@ -35,7 +35,7 @@ classes that are used once or do one thing really well
   height: 100vh;
   width: 0;
   position: absolute;
-  bottom: 10%;
+  /* bottom: 10%; */
   text-align: center;
   display: flex;
   flex-direction: column;
